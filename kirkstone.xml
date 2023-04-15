@@ -3,7 +3,12 @@
         <!-- Remote -->
         <remote name="yocto" fetch="https://git.yoctoproject.org"/>
         <project name="poky" remote="yocto" revision="kirkstone" path="sources/poky"/>
+        <project name="meta-raspberrypi" remote="yocto" revision="kirkstone" path="sources/meta-raspberrypi"/>
 
         <remote name="oe" fetch="https://git.openembedded.org"/> 
-        <project name="meta-openembedded" remote="oe" revision="kirkstone" path="sources/meta-openembedded"/>       
+        <project name="meta-openembedded" remote="oe" revision="kirkstone" path="sources/meta-openembedded"/>
+        <project name="meta-python2"
+           remote="oe"
+           revision="kirkstone"
+           path="sources/meta-python2"/>      
 </manifest>
