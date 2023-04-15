@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+        <!-- Remote -->
+        <remote name="yocto" fetch="https://git.yoctoproject.org"/>
+        <project name="poky" remote="yocto" revision="kirkstone" path="sources/poky"/>
+
+        <remote name="oe" fetch="https://git.openembedded.org"/> 
+        <project name="meta-openembedded" remote="oe" revision="kirkstone" path="sources/meta-openembedded"/>       
+</manifest>
