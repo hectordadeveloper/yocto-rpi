@@ -15,5 +15,5 @@
          <linkfile dest="sources/templates" src="meta-boot2qt-distro/conf"/>
         </project>
         <!-- <project name="meta-qt5" remote="qt" revision="upstream/kirkstone" path="sources/meta-qt5"/> -->
-        <project name="meta-qt6" remote="qt" revision="lts-6.2.8" path="sources/meta-qt5"/>
+        <project name="meta-qt6" remote="qt" revision="lts-6.2.8" path="sources/meta-qt6"/>
 </manifest>
